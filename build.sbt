@@ -67,6 +67,7 @@ lazy val commonSettings: List[Def.Setting[_]] = List(
     moduleFilter(organization = "com.squareup.okhttp3", name = "okhttp"),
     moduleFilter(organization = "com.timushev.sbt", name = "sbt-rewarn"),
     moduleFilter(organization = "net.openhft", name = "zero-allocation-hashing"),
+    moduleFilter(organization = "org.apache.logging.log4j", name = "log4j-api"),
     moduleFilter(organization = "org.apache.logging.log4j", name = "log4j-core"),
     moduleFilter(organization = "org.apache.logging.log4j", name = "log4j-slf4j-impl"),
   ),
